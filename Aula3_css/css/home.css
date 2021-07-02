@@ -1,0 +1,128 @@
+.texto-verde {
+  color: #004d40;
+}
+
+.texto-violeta {
+  color: #311b92;
+}
+
+.texto-rosa {
+  color: #e91e63;
+}
+
+.texto-ambar {
+  color: #ff6f00;
+}
+
+.texto-castanho {
+  color: #4e342e;
+}
+
+.texto-preto {
+  color: #000000;
+}
+
+.texto-branco {
+  color: #ffffff;
+}
+
+.back-verde {
+  background-color: #004d40;
+}
+
+.back-violeta {
+  background-color: #311b92;
+}
+
+.back-rosa {
+  background-color: #e91e63;
+}
+
+.back-ambar {
+  background-color: #ff6f00;
+}
+
+.back-castanho {
+  background-color: #4e342e;
+}
+
+.back-preto {
+  background-color: #000000;
+}
+
+.back-branco {
+  background-color: #ffffff;
+}
+
+.contraste-verde {
+  color: #ffffff;
+  background-color: #004d40;
+}
+
+.contraste-violeta {
+  color: #000000;
+  background-color: #311b92;
+}
+
+.contraste-rosa {
+  color: #000000;
+  background-color: #e91e63;
+}
+
+.contraste-ambar {
+  color: #000000;
+  background-color: #ff6f00;
+}
+
+.contraste-castanho {
+  color: #000000;
+  background-color: #4e342e;
+}
+
+.contraste-preto {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.contraste-branco {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.tamanho-texto-pequeno {
+  font-size: 8;
+}
+
+.tamanho-texto-medio {
+  font-size: 16;
+}
+
+.tamanho-texto-grande {
+  font-size: 32;
+}
+
+.tamanho-texto-enorme {
+  font-size: 64;
+}
+
+.box {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.box-dark {
+  border: 1px solid #000000;
+  min-width: 100px;
+  min-height: 100px;
+  width: 150px;
+  font-weight: bold;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+}
+
+body {
+  padding: 50px;
+}
+/*# sourceMappingURL=home.css.map */

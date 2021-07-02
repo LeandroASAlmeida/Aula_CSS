@@ -1,0 +1,12 @@
+$tamanho-pequeno: 8;
+$tamanho-medio: 16;
+$tamanho-grande: 32;
+$tamanho-enorme: 64;
+$tamanho-borda:1px;
+
+$tamanhos: (
+    pequeno:$tamanho-pequeno,
+    medio:$tamanho-medio,
+    grande:$tamanho-grande,
+    enorme:$tamanho-enorme,
+);

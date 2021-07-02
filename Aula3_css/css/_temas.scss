@@ -1,0 +1,64 @@
+@import "cores", "tamanhos";
+
+@each $chave, $valor in $cores {
+    .texto-#{$chave} {
+        color: $valor;
+    }
+}
+
+@each $chave, $valor in $cores {
+    .back-#{$chave} {
+        background-color: $valor;
+    }
+}
+@each $chave, $valor in $cores {
+    .contraste-#{$chave} {
+        @if ($valor == $cor-preto or $valor == $cor-verde) {
+            color: $cor-branco;
+        } @else if($valor == $cor-preto or $valor == $cor-verde) {
+            color: $cor-rosa;
+            font-weight: bold;
+        } @else {
+            color: $cor-preto;
+        }
+        background-color: $valor;
+    }
+}
+
+@each $key, $value in $tamanhos {
+    .tamanho-texto-#{$key} {
+        font-size: $value;
+    }
+}
+@mixin caixa {
+    border: $tamanho-borda solid $cor-preto;
+    min-width: 100px;
+    min-height: 100px;
+    width: 150px;
+    
+
+}
+.box {
+    background-color: $cor-preto;
+    color: $cor-branco;
+}
+
+@mixin fonte($estilo) {
+    @if ($estilo == negrito) {
+        font-weight: bold;
+    }
+
+    @if ($estilo == italico) {
+        font-style: italic;
+    }
+
+}
+
+.box-dark {
+    @include caixa;
+    @include fonte(negrito);
+    background-color: $cor-preto;
+    color: $cor-branco;
+    text-align: center;
+    padding:#{$tamanho-medio}px;
+}
