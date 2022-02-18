@@ -170,14 +170,19 @@
 
 .item img {
     -ms-grid-row: 1;
+    grid-row:1;
     -ms-grid-column: 1;
+    grid-column:1;
     grid-area: logo;
+
     max-width: 32px;
 }
 
 .item .detalhe {
     -ms-grid-row: 1;
+    grid-row:1;
     -ms-grid-column: 2;
+    grid-column: 2;
     grid-area: detalhe;
     margin-top: 8px;
 }
@@ -192,7 +197,9 @@
 
 .item .icone {
     -ms-grid-row: 1;
+    grid-row:1;
     -ms-grid-column: 3;
+    grid-column: 3;
     grid-area: status;
     position: absolute;
     bottom: 0px;
