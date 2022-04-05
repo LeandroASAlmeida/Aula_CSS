@@ -239,7 +239,7 @@ nav .sidenav-trigger {
     transition: all 0.5s;
     cursor: pointer;
     position: absolute;
-    left: 270px;
+    left: 200px;
 }
 
 .button span {
